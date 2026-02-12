@@ -415,6 +415,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1787346994484839025, guid: ad818c36731146e994540a1896ad8f24, type: 3}
   m_PrefabInstance: {fileID: 1029622031}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &539528827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right/Thumbstick
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: b8c0ccd3-e1b6-4913-96b3-e0864c9ac6bd
 --- !u!114 &621908044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -914,7 +928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
       propertyPath: m_UseForceGrab
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
       propertyPath: m_SelectInput.m_InputActionReferenceValue
@@ -925,6 +939,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 457198851}
     - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
+      propertyPath: m_ScaleOverTimeInput.m_InputActionReference
+      value: 
+      objectReference: {fileID: 539528827}
+    - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
       propertyPath: m_SelectInput.m_InputActionReferencePerformed
       value: 
       objectReference: {fileID: 725104061}
@@ -933,13 +951,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 621908044}
     - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
+      propertyPath: m_RotateManipulationInput.m_InputActionReference
+      value: 
+      objectReference: {fileID: 1440283333}
+    - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
+      propertyPath: m_ScaleToggleInput.m_InputActionReferencePerformed
+      value: 
+      objectReference: {fileID: 1163828059}
+    - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
+      propertyPath: m_TranslateManipulationInput.m_InputActionReference
+      value: 
+      objectReference: {fileID: 1851415735}
+    - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
+      propertyPath: m_DirectionalManipulationInput.m_InputActionReference
+      value: 
+      objectReference: {fileID: 901760041}
     - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
       propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
@@ -1030,6 +1064,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChangeOnGrab
   SphereHand: {fileID: 1111643296}
   interactor: {fileID: 879282393}
+--- !u!114 &901760041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right/Thumbstick
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: b8c0ccd3-e1b6-4913-96b3-e0864c9ac6bd
 --- !u!114 &912834421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1326,6 +1374,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111643296}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1163828059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right Interaction/Scale Toggle
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 5ad73d15-99a4-4bce-a76f-f49815602416
 --- !u!1 &1243008607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,6 +1515,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: d20fc51c-7916-43a7-8b03-706049966aea
+--- !u!114 &1440283333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right/Thumbstick
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: b8c0ccd3-e1b6-4913-96b3-e0864c9ac6bd
 --- !u!114 &1545075863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1952,6 +2028,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &1851415735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right/Thumbstick
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: b8c0ccd3-e1b6-4913-96b3-e0864c9ac6bd
 --- !u!1 &1906274152
 GameObject:
   m_ObjectHideFlags: 0

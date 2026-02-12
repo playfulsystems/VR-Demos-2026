@@ -942,7 +942,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 3956751eee6c9384bbc498174a20499a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetDistanceFromCollision
   DistanceText: {fileID: 1251614932}
-  sign: {fileID: 0}
+  sign: {fileID: 8863317254201443612, guid: 2726973d6084594489c7af9ffab13287, type: 3}
 --- !u!114 &1377755341
 MonoBehaviour:
   m_ObjectHideFlags: 0
